@@ -21,7 +21,7 @@ You need to install pytest before.
 ```bash
 pip install -U pytest
 ```
-Then run every test inside +tests+ directory
+Then run all tests inside **tests** directory
 ```bash
 pytest
 ```
