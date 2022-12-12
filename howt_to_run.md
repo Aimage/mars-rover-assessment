@@ -7,8 +7,21 @@
 
 ## Run with file input
 
+```bash
 python3 run.py input.txt
+```
 
 ## Run with keyboard input
+```bash
 python3 run.py
+```
 
+# Run tests
+You need to install pytest before.
+```bash
+pip install -U pytest
+```
+Then run every test inside +tests+ directory
+```bash
+pytest
+```
