@@ -37,5 +37,5 @@ class Rover:
             self.y_move(-1)
         if self.direction == "E":
             self.x_move(1)
-        if self.direction == "O":
+        if self.direction == "W":
             self.x_move(-1)

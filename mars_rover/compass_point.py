@@ -5,8 +5,8 @@ class CompassPoint():
         self.right = right
 
 COMPASS_MAP = {
-        "N" : CompassPoint("O", "E"),
-        "S" : CompassPoint("E", "O"),
+        "N" : CompassPoint("W", "E"),
+        "S" : CompassPoint("E", "W"),
         "E" : CompassPoint("N", "S"),
-        "O" : CompassPoint("S", "N")
+        "W" : CompassPoint("S", "N")
 }
